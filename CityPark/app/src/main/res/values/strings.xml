@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CityPark</string>
+    <string name="action_done"> Mr. Xxx Yyy Zzz </string>
+    <string name="Google_Map_Api">AIzaSyBYX_KzDiVziD3h1ie8vXzLIF9n9mHKeaI</string>
+    <string-array name="vehicle_type">
+        <item>Car</item>
+        <item>Motor</item>
+        <item>Bike</item>
+        <item>Van</item>
+        <item>Truck</item>
+        <item>Jeep</item>
+    </string-array>
+    <string-array name="durations">
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>3 Hours</item>
+        <item>4 Hours</item>
+        <item>5 Hours</item>
+        <item>6 Hours</item>
+        <item>7 Hours</item>
+        <item>8 Hours</item>
+        <item>9 Hours</item>
+        <item>10 Hours</item>
+        <item>11 Hours</item>
+        <item>Half a Day</item>
+        <item>Overnight</item>
+    </string-array>
+
+</resources>

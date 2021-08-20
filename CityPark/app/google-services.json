@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "230899623942",
+    "project_id": "citypark-6e50d",
+    "storage_bucket": "citypark-6e50d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230899623942:android:e125550bb66912ed88fb87",
+        "android_client_info": {
+          "package_name": "com.example.parkeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230899623942-anbkph40pl8igghsd7a65lhitedka6j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkeasy",
+            "certificate_hash": "eba763f942d5922faead955ec4d34523495709b2"
+          }
+        },
+        {
+          "client_id": "230899623942-d4oegutj1isubm4oldafe5c3qgdg3l3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmwh_XZSGXfPpkElZsKqy-ZnpXPgF1zl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230899623942-d4oegutj1isubm4oldafe5c3qgdg3l3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

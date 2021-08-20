@@ -1,0 +1,2 @@
+rootProject.name='CityPark'
+include ':app'

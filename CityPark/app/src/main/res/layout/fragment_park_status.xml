@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#cb7119" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_edittext"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/textView2z"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Parked_or_not"
+            android:layout_weight="50"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edittext"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            />
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:orientation="horizontal">
+           <TextView
+               android:id="@+id/textVissew"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="serif"
+               android:gravity="center"
+               android:text="At: "
+               android:padding="5dp"
+               android:textColor="#FBEAC9"
+               android:textStyle="bold"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+               tools:ignore="MissingConstraints" />
+           <TextView
+               android:id="@+id/textViewprkNm"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="serif"
+               android:gravity="center"
+               android:text="park_name"
+               android:textColor="#FBEAC9"
+               android:textStyle="bold"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+               tools:ignore="MissingConstraints" />
+       </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textVkjhissew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text=" Time "
+                android:padding="5dp"
+                android:textColor="#FBEAC9"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/tekjhxtVdateiew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Date"
+                android:textColor="#FBEAC9"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tkjhextVkjhissew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Type"
+                android:padding="10dp"
+                android:textColor="#FBEAC9"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/telkkjhxtViewreg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Plate No"
+                android:textColor="#FBEAC9"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
