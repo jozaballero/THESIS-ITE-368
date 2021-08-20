@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cb7119"
+    tools:context=".activites.PhoneNumVerifyActivity">
+
+    <TextView
+        android:id="@+id/vieljkw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F9F9FA"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Phone Number Authentication" />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Code"
+        android:layout_margin="30dp"
+        android:textColor="#3BC7FF"
+        android:textColorHint="#3BC7FF"
+        android:id="@+id/code"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:id="@+id/btn"
+        android:textColor="#3BC7FF"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_edittext"
+        android:text="Verifying"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:id="@+id/progressBar"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_regSave"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#3BC7FF"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_height="wrap_content"
+        android:text="Save Info" />
+
+</LinearLayout>

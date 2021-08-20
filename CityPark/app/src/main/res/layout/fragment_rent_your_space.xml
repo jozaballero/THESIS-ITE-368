@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#cb7119"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2z"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Rent/Share Your Space"
+            android:textColor="#F9F9FA"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewd2z"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="CityPark"
+            android:textColor="#fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editText_prkNmRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rounded_edittext"
+                android:drawableLeft="@drawable/ic_user_name"
+                android:ems="10"
+                android:hint=" Park Name"
+                android:fontFamily="serif"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"/>
+
+            <EditText
+                android:id="@+id/editText_phnnumRegRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableLeft="@drawable/ic_pass"
+                android:ems="10"
+                android:hint=" Phone Number"
+                android:fontFamily="serif"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/editText_addRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableLeft="@drawable/ic_pass"
+                android:ems="10"
+                android:hint=" Price"
+                android:fontFamily="serif"
+                android:inputType="textPostalAddress"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+
+
+            <EditText
+                android:id="@+id/editText_VehicleRegNumRennt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="169dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableLeft="@drawable/ic_pass"
+                android:ems="10"
+                android:hint=" Capacity"
+                android:fontFamily="serif"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+            <EditText
+                android:id="@+id/editText_passwasdordsRegRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="225dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableLeft="@drawable/ic_pass"
+                android:ems="10"
+                android:hint=" Password"
+                android:fontFamily="serif"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff" />
+
+
+            <TextView
+                android:id="@+id/button_regNextRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginTop="278dp"
+                android:background="@drawable/rounded_edittext"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/edit_text_color"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal" />
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
